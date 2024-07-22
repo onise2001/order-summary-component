@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Display", sans-serif;
+
+}
+
+body{
+    background-color: #e0e8ff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.card{
+    width: 450px;
+    background-color: white;
+    padding: 0 0 48px;
+    border-radius:20px;
+    box-shadow: 0 40px 40px -20px rgba(13, 48, 189, 0.15);
+    
+}
+
+.card-img{
+    width: 100%;
+    border-radius:20px 20px 0 0;
+}
+
+.card-body{
+    padding: 0 48px;
+}
+
+.card-title{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 900;
+    margin: 45px 48px 17px;
+    color: #1f2e55;
+}
+
+.card-text{
+    font-size:16px;
+    font-weight: 500;
+    line-height: 1.63;
+    color: #717fa6;
+    text-align: center;
+    width:100%;
+    margin-bottom: 20px;
+    
+}
+
+
+.payment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 24px;
+    background-color: #f7f9ff;
+    border-radius: 11px;
+}
+
+
+.music-icon{
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    background-color: #dfe6fb;
+    margin-right:20px;
+}
+
+
+.payment-info{
+    display: flex;
+    align-items:center;
+}
+
+.plan-title{
+    font-size:16px;
+    font-weight: 900;
+    color: #1f2e55;
+    margin-bottom:6px;
+}
+
+.plan-price{
+    font-size: 16px;
+    font-weight: 500;
+    color:#717fa6;
+}
+
+.change-link{
+    font-size:14px;
+    font-weight: bold;
+    color: #382ae1;
+}
+
+
+
+.pay-button{
+    width:100%;
+    padding: 15px 90px;
+    border-radius: 11px;
+    margin:32px 0;
+    box-shadow: 0 20px 20px 0 rgba(56, 42, 225, 0.19);
+    background-color: #382ae1;
+    color:white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 900;
+    border:none;
+}
+
+.cancel-button{
+    width: 100%;
+    background-color: transparent;
+    font-size:15px;
+    font-weight: 900;
+    border:none;
+    color: #717fa6;
+}
+
+
+@media(max-width:480px){
+    .card{
+        width:340px;
+        padding:0 0 32px;
+
+    }
+    .card-body{
+        padding: 0 24px;
+
+    }
+
+    .card-title{
+        font-size:22px;
+    }
+
+    .card-text{
+        font-size:15px;
+        text-align: center;
+    }
+
+    .plan-title{
+        font-size: 14px;
+        margin: 0 0 3px;
+    }
+
+    .plan-price{
+        font-size: 14px;
+    }
+    .change-link{
+        font-size:13px;
+    }
+    
+    .pay-button{
+        font-size:14px;
+        margin: 24px 24px 24px 5.5px;
+        padding: 15px 65px 15px 64px
+    }
+
+    .cancel-button{
+        font-size:15px;
+    }
+
+}
